@@ -1,6 +1,6 @@
 import { addUnitOfTime } from "./addUnitOfTime.js";
 
-function timeParser(timeExpression) {
+function parser(timeExpression) {
   if (!timeExpression || typeof timeExpression != "string") {
     console.log("Invalid input");
   }
@@ -33,7 +33,7 @@ function timeParser(timeExpression) {
   return dateOutcome;
 }
 
-console.log(timeParser("now()"));
-console.log(timeParser("now()+1d"));
-console.log(timeParser("now()+7h+20m"));
-console.log(timeParser("now()+1y+8mon+1d+7h+3m+13s"));
+console.log(parser("now()"));
+console.log(parser("now()+1d"));
+console.log(parser("now()+7h+20m"));
+console.log(parser("now()+1y+8mon+1d+7h+3m+13s"));
