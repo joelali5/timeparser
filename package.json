@@ -1,0 +1,13 @@
+{
+  "name": "timeparser",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "timeParser.js",
+  "scripts": {
+    "test": "node timeParser.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
